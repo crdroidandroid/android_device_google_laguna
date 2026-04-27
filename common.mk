@@ -5,6 +5,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Include JamesDSP
+$(call inherit-product, vendor/JamesDSP/config.mk)
+
 # Include BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
 
