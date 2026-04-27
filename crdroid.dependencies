@@ -1,6 +1,14 @@
 [
   {
-    "repository": "android_device_google_gs-common",
+    "repository": "crdroidandroid/android_device_google_gs-common",
     "target_path": "device/google/gs-common"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_JamesDSP",
+    "target_path": "vendor/JamesDSP"
+  },
+  {
+    "repository": "crdroidandroid/android_vendor_bcr",
+    "target_path": "vendor/bcr"
   }
 ]
