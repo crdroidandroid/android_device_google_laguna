@@ -1,0 +1,6 @@
+allow fastbootd devpts:chr_file rw_file_perms;
+
+recovery_only(`
+allow fastbootd citadel_device:chr_file rw_file_perms;
+allow fastbootd st54spi_device:chr_file rw_file_perms;
+')

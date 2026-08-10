@@ -1,5 +1,6 @@
 type trusty_coverage_controller, domain;
 type trusty_coverage_controller_exec, exec_type, file_type, vendor_file_type;
+type trusty_coverage_data_file, data_file_type, file_type;
 
 init_daemon_domain(trusty_coverage_controller)
 

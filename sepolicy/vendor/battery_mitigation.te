@@ -1,5 +1,6 @@
 type battery_mitigation, domain;
 type battery_mitigation_exec, exec_type, file_type, vendor_file_type;
+type sysfs_acpm_stats, fs_type, sysfs_type;
 
 hal_client_domain(battery_mitigation, hal_health)
 hal_client_domain(battery_mitigation, hal_thermal)

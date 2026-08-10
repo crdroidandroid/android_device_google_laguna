@@ -1,5 +1,6 @@
 type copy_efs_files_to_data, domain;
 type copy_efs_files_to_data_exec, exec_type, file_type, vendor_file_type;
+type modem_efs_image_file, data_file_type, file_type;
 
 init_daemon_domain(copy_efs_files_to_data)
 

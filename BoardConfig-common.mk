@@ -253,7 +253,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     hardware/google/pixel-sepolicy/input \
     hardware/google/pixel-sepolicy/powerstats \
     device/google/laguna/sepolicy/certificates \
-    device/google/laguna/sepolicy/recovery \
     device/google/laguna/sepolicy/vendor
 
 PRODUCT_PRIVATE_SEPOLICY_DIRS += \

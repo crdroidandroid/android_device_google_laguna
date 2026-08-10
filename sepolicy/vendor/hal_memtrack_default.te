@@ -1,0 +1,4 @@
+type proc_gpu_img, fs_type, proc_type;
+
+allow hal_memtrack_default proc_gpu_img:dir search;
+allow hal_memtrack_default proc_gpu_img:file { getattr open read };

@@ -1,5 +1,7 @@
 type shared_modem_platform, domain;
 type shared_modem_platform_exec, exec_type, file_type, vendor_file_type;
+type sysfs_kernel_metrics, fs_type, sysfs_type;
+type sysfs_modem, fs_type, sysfs_type;
 
 hal_server_domain(shared_modem_platform, hal_shared_modem_platform)
 
@@ -12,9 +14,6 @@ init_daemon_domain(shared_modem_platform)
 perfetto_producer(shared_modem_platform)
 
 set_prop(shared_modem_platform, vendor_modem_prop)
-
-unix_socket_connect(shared_modem_platform, property, traced)
-unix_socket_connect(shared_modem_platform, traced_producer, init)
 
 allow shared_modem_platform dumpstate:fd use;
 allow shared_modem_platform dumpstate:fifo_file write;

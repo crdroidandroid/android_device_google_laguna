@@ -1,5 +1,6 @@
 type init_rdbl, domain;
 type init_rdbl_exec, exec_type, file_type, vendor_file_type;
+type rdbl_block_device, dev_type;
 
 init_daemon_domain(init_rdbl)
 

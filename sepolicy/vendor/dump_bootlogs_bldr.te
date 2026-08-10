@@ -1,5 +1,7 @@
 pixel_bugreport(dump_bootlogs_bldr)
 
+type vendor_bootlogs_block_device, dev_type;
+
 allow dump_bootlogs_bldr block_device:dir search;
 allow dump_bootlogs_bldr radio_vendor_data_file:dir create_dir_perms;
 allow dump_bootlogs_bldr radio_vendor_data_file:file create_file_perms;
